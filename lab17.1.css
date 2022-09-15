@@ -1,0 +1,114 @@
+.body-head {
+  display: block;
+  margin: auto;
+  width: 1300px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+/* NAVBAR */
+.container-fluid {
+  display: block;
+}
+.navbar {
+  display: grid;
+  grid-template-rows: 20% 80%;
+  background-color: #000;
+  height: 30px;
+}
+.navbar-nav {
+  display: flex;
+  gap: 20px;
+  margin-left: -1.5em;
+  margin-top: -1.15em;
+}
+.d-flex {
+  display: flex;
+  margin-left: 66em;
+  margin-top: -1.8em;
+}
+.btn {
+  color: blue;
+}
+.navbar-brand {
+  color: white;
+  margin-top: -0.5em;
+}
+.active {
+  color: white;
+}
+.between {
+  color: lightgrey;
+}
+.disable {
+  color: grey;
+}
+/*Carousel*/
+.carousel-caption {
+  line-height: 0.2;
+  text-align: left;
+  padding-bottom: 19em;
+}
+.btn-lg {
+  color: white;
+  margin-top: -0.5em;
+}
+.btn-primary {
+  background-color: #30ccff;
+  border-radius: 12%;
+  height: 2.5em;
+  border: 1px;
+}
+.carousel-control {
+  /* position: absolute;*/
+  display: flex;
+  gap: 1088px;
+}
+.container {
+  padding: auto;
+}
+.carousel-indicators {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding-top: 1em;
+}
+/* VIEWPORT */
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: black;
+  }
+}
+
+/* IMG */
+.bg-img1 {
+  background-color: #000;
+  background-size: cover;
+  background-image: url(anh-nen-may-tinh-dep-nhat-2017.jpg);
+  height: 380px;
+}
+.bg-img2 {
+  background-color: #000;
+  background-size: cover;
+  background-image: url(Ảnh-nền-màu-xanh-lá.jpg);
+  height: 380px;
+}
+.bg-img3 {
+  background-color: #000;
+  background-size: cover;
+  background-image: url(hinh-nen-mau-xanh-luc.jpg);
+  height: 380px;
+}
+/* FOOTER */
+.footer {
+  display: flex;
+  gap: 5px;
+  color: rgb(28, 28, 240);
+  margin-top: 5em;
+}
+.li-footer {
+  color: black;
+}
+.a-href-footer {
+  padding-left: 56em;
+}

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Lab 17.1</title>
+    <link href="lab17.1.css" rel="stylesheet" />
+    <link
+      rel="canonical"
+      href="http://getbootstrap.com/docs/5.0/examples/carousel/"
+    />
+    <!-- Bootstrap core CSS -->
+    <link
+      href="http://cdn.jsdelivr.net/npm/bootstrap@5.2.0betal/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha3840evHe/X+R7YkIZDRvuzKMRqM+0rBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <!-- Custom styles for this templace -->
+  </head>
+  <body class="body-head">
+    <!--JavaScript Bundle with Popper-->
+    <script
+      src="http://cdn.jsdelivr.net/npm/bootstrap@5.2.0betal/dist/css/bootstrap.min.css"
+      integrity="sha3840evHe/X+R7YkIZDRvuzKMRqM+0rBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    ></script>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Carousel</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link between" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link disabled"
+                  href="#"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >Disabled</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="anh-nen-may-tinh-dep-nhat-2017.jpg" alt="Los Angeles" style="width: 100%" /><div class="carousel-caption text-start">
+              <h1>Exampke headline</h1>
+              <p>
+                Some representative placeholder content for the first slide of
+                the carousel
+              </p>
+              <p>
+                <button class="btn-primary">
+                  <a class="btn btn-lg" href="#">Sign up today</a>
+                </button>
+              </p>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="Ảnh-nền-màu-xanh-lá.jpg" alt="Chicago" style="width: 100%" /><div class="carousel-caption">
+              <h1>Another example headline</h1>
+              <p>
+                Some representative placeholder content for the second slide of
+                the carousel.
+              </p>
+              <p>
+                <button class="btn-primary">
+                  <a class="btn btn-lg" href="#">Learn more</a>
+                </button>
+              </p>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="hinh-nen-mau-xanh-luc.jpg" alt="New york" style="width: 100%" /><div class="carousel-caption text-end">
+              <h1>One more for good measure.</h1>
+              <p>
+                Some representative placeholder content for the third slide of
+                the carousel.
+              </p>
+              <p>
+                <button class="btn-primary">
+                  <a class="btn btn-lg" href="#">Browse gallery</a>
+                </button>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <footer>
+        <div class="footer">
+          <p>Copyright 2019- 2024 Company,Inc</p>
+          <p>
+            <li class="li-footer"><a href="#">Privacy</a></li>
+          </p>
+          <p>
+            <li class="li-footer"><a href="#">Tearm</a></li>
+          </p>
+          <a class="a-href-footer" href="#">Back to top</a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
