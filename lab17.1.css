@@ -7,9 +7,9 @@
 }
 
 /* NAVBAR */
-.container-fluid {
+/*.container-fluid {
   display: block;
-}
+}*/
 .navbar {
   display: grid;
   grid-template-rows: 20% 80%;
